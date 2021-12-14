@@ -1,0 +1,198 @@
+﻿﻿﻿body {
+}
+/*Logo section*/
+.header-main {
+    /*position: relative;*/
+    border-bottom: solid;
+    display: flex;
+}
+
+div .header-logo img {
+    /*position: absolute;*/
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+
+
+.icon {
+    position: relative;
+    top: 10px;
+    float: right;
+    width: 5%;
+    height: auto;
+}
+
+
+
+.coName {
+    color: black;
+    font-size: 42px;
+    position: relative;
+    top: 15px;
+    left: 80px;
+}
+
+.slogan {
+    clear: left;
+    color: black;
+    font-size: 22px;
+    font-style: italic;
+    position: relative;
+    left: 295px;
+    bottom: 30px;
+}
+
+/*.border {
+   background-color: rgb(58, 53, 49);
+   padding: 10px;
+   position: relative;
+   top: 140px;*/
+
+
+}
+
+.navBar {
+    display: flex;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+}
+
+    .navBar ul li {
+        display: inline-block;
+        font-size: 25px;
+        top: 170px;
+        left: 100px;
+    }
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.links {
+    display: block;
+    word-spacing: 20px;
+    letter-spacing: 10px;
+}
+
+#meta {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#twitter {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#instagram {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.links li:hover {
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+/*END header / nav section for every page*/
+
+.indexMain {
+    display: flex;
+}
+
+.about {
+    /*border: 1em solid black;*/
+    position: relative;
+    left: 10%;
+}
+
+.aUs {
+    text-decoration: underline;
+    position: relative;
+    left: 500px;
+    top: 85px;
+}
+
+.intro {
+    display: block;
+    margin-left: 100px;
+    margin-right: 400px;
+    /*border: 3px solid black;*/
+    position: relative;
+}
+
+#introPara {
+    display: block;
+    font-size: 20px;
+    float: right;
+    display: block;
+    text-align: justify;
+    position: relative;
+    bottom: 118px;
+    left: 300px;
+}
+
+.why {
+    position: relative;
+    top: 10%;
+    /*left: 25%;*/
+    /*width: 100%;*/
+}
+
+    .why #whyChoose {
+        display: block;
+        font-size: 3em;
+        text-align: center;
+        padding: 50px;
+    }
+
+.chooseIntro .introPara1 {
+    font-size: 1.3em;
+    padding-bottom: 60px;
+    text-align: justify;
+}
+
+.chooseIntro .introPara2 {
+    position: relative;
+    top: 80px;
+    font-size: 1.3em;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    text-align: justify;
+}
+
+
+#asianPrep {
+    float: left;
+    width: 25%;
+    height: auto;
+    padding-right: 20px;
+}
+
+#greekPrep {
+    position: relative;
+    top: 100px;
+    float: right;
+    width: 25%;
+    height: auto;
+    padding-left: 20px;
+}
+
+footer {
+    display: block;
+}
+
+a .fIcon {
+    position: relative;
+    top: 10px;
+    float: right;
+    width: 45%;
+    height: auto;
+    width: 10px;
+    height: auto;
+}
