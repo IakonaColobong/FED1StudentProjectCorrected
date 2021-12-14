@@ -1,5 +1,10 @@
-﻿﻿﻿body {
+﻿
+
+
+﻿﻿body {
 }
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Estonia&family=Hurricane&family=Nanum+Gothic+Coding&family=Padauk&family=Philosopher&display=swap');
+
 /*Logo section*/
 .header-main {
     /*position: relative;*/
@@ -32,6 +37,7 @@ div .header-logo img {
     position: relative;
     top: 15px;
     left: 80px;
+    font: 'Philosopher', sans-serif;
 }
 
 .slogan {

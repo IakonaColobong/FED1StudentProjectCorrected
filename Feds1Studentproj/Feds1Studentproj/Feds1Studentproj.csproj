@@ -70,6 +70,7 @@
     <Content Include="contact.html" />
     <Content Include="classes.html" />
     <Content Include="css\StyleSheet.css" />
+    <Content Include="favicon.ico" />
     <Content Include="images\1200px-Sushi_chef_Masayoshi_Kazato_02.jpg" />
     <Content Include="images\1529690483732.jpeg" />
     <Content Include="images\16707.png" />
@@ -119,6 +120,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="favicon\" />
     <Folder Include="scripts\" />
   </ItemGroup>
   <PropertyGroup>
