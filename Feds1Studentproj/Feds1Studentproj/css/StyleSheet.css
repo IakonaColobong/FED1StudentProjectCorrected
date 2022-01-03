@@ -106,32 +106,37 @@ a {
 }
 /*END header / nav section for every page*/
 
-.indexMain {
-    display: flex;
-}
-
-.about {
-    /*border: 1em solid black;*/
-    position: relative;
-    left: 10%;
+.intro {
+    padding: 20px;
+    margin-bottom: 200px;
 }
 
 .aUs {
     text-decoration: underline;
-    position: relative;
-    left: 500px;
-    top: 85px;
 }
 
-.intro {
-    display: block;
-    margin-left: 100px;
-    margin-right: 400px;
-    /*border: 3px solid black;*/
-    position: relative;
+.intro img {
+    float: left;
+    vertical-align: top;
+    display: inline;
+    padding: 5px;
 }
 
-#introPara {
+.aboutus {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: left;
+}
+
+.auspara {
+    font-size: 1em;
+   
+}
+
+
+
+/*#introPara {
     display: block;
     font-size: 20px;
     float: right;
@@ -147,7 +152,7 @@ a {
     top: 10%;
     margin-bottom: 200px;
     /*left: 25%;*/
-    /*width: 100%;*/
+/*width: 100%;
 }
 
     .why #whyChoose {
@@ -188,16 +193,48 @@ a {
     height: auto;
     padding-left: 20px;
 }
+*/
+
+.why {
+    width: 100%;
+    height: auto;
+    text-align: center;
+
+}
+.chooseIntro #asianPrep {
+    float: left;
+    vertical-align: central;
+    
+}
+.chooseIntro img {
+    width: 560px;
+    height: auto;
+    padding: 10px;
+
+}
+.intropara1 {
+    text-align: left;
+    height: 50%;
+    width: auto;
+}
+#greekPrep {
+    float: right;
+    vertical-align: middle;
+}
+.introPara2 {
+    text-align: left;
+}
 
 footer {
-    margin-top: 100px;
+    margin-top: 280px;
     display: block;
     border-style: groove;
     border-color: black;
 }
-
+    
 .rights {
     float: left;
+    vertical-align: middle;
 }
 
 footer #vector {
@@ -416,7 +453,6 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  
 }
 
     input[type=submit]:hover {
@@ -424,10 +460,8 @@ input[type=submit] {
     }
 
 .cform {
-    
     padding: 2em;
     text-align: center;
-   
     margin: auto;
 }
 
