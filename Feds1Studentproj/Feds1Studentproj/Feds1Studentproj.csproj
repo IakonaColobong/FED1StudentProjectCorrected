@@ -67,9 +67,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Administration.html" />
     <Content Include="contact.html" />
     <Content Include="classes.html" />
     <Content Include="css\StyleSheet.css" />
+    <Content Include="ExecutiveLeadership.html" />
     <Content Include="favicon.ico" />
     <Content Include="images\1200px-Sushi_chef_Masayoshi_Kazato_02.jpg" />
     <Content Include="images\1529690483732.jpeg" />
@@ -97,13 +99,19 @@
     <Content Include="images\istockphoto-1081422898-612x612.jpg" />
     <Content Include="images\Italian Cuisine.jpg" />
     <Content Include="images\Japanese.jpg" />
+    <Content Include="images\Kamekona_DP.jpg" />
     <Content Include="images\logo2.jpg" />
     <Content Include="images\MOTC_HenryMatteo_FreshPasta.jpg" />
     <Content Include="images\Pastry Catherine Nilsen.jpg" />
     <Content Include="images\pastry tartlet.jpg" />
+    <Content Include="images\Sale-theresa.png" />
+    <Content Include="images\Sales-Jeff.jpg" />
+    <Content Include="images\sales-Wanda.jpg" />
     <Content Include="images\twitter-square-black-and-white-logo-962E683117-seeklogo.com.png" />
+    <Content Include="Sales.html" />
     <Content Include="team.html" />
     <Content Include="index.html" />
+    <Content Include="TechnicalTrainers.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

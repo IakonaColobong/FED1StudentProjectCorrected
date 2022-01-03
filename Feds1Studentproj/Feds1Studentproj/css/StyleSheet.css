@@ -3,17 +3,16 @@
 
 ﻿﻿body {
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Estonia&family=Hurricane&family=Nanum+Gothic+Coding&family=Padauk&family=Philosopher&display=swap');
 
 /*Logo section*/
 .header-main {
-    /*position: relative;*/
     border-bottom: solid;
     display: flex;
 }
 
 div .header-logo img {
-    /*position: absolute;*/
     width: 50%;
     height: auto;
     float: left;
@@ -57,7 +56,7 @@ div .header-logo img {
    top: 140px;*/
 
 
-}
+
 
 .navBar {
     display: flex;
@@ -146,6 +145,7 @@ a {
 .why {
     position: relative;
     top: 10%;
+    margin-bottom: 200px;
     /*left: 25%;*/
     /*width: 100%;*/
 }
@@ -190,8 +190,23 @@ a {
 }
 
 footer {
+    margin-top: 100px;
     display: block;
+    border-style: groove;
+    border-color: black;
 }
+
+.rights {
+    float: left;
+}
+
+footer #vector {
+    margin-top: 20px;
+    float: right;
+    width: 75%
+}
+
+
 
 a .fIcon {
     position: relative;
@@ -201,4 +216,225 @@ a .fIcon {
     height: auto;
     width: 10px;
     height: auto;
+}
+
+/*Classes page specific*/
+.subjects {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    grid-column-gap: 50px;
+}
+
+    .grid-container img {
+        width: 235px;
+        height: 180px;
+    }
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.description {
+    position: page;
+    text-align: center;
+    width: 210px;
+    overflow-wrap: break-word;
+}
+/*This will be for the table on the classes page*/
+.classList {
+    align-content: center;
+    text-align: center;
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin: auto;
+}
+
+    #customers td, #customers th {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    #customers tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    #customers tr:hover {
+        background-color: #ddd;
+    }
+
+    #customers th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: darkslategrey;
+        color: white;
+    }
+
+/* Begins the TEAM page*/
+* {
+    box-sizing: content-box;
+}
+
+.frame {
+    width: 100%;
+    height: 100%;
+}
+
+#iframe_a {
+    float: left;
+    width: 100%;
+    height: 200%;
+}
+
+/*.leadership {
+    width: 50%;
+    margin: auto;
+}
+    */
+
+
+.menu {
+    float: right;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    border-left-style: solid;
+    outline-color: ActiveBorder;
+}
+
+    .menu a {
+        background-color: #e5e5e5;
+        padding: 8px;
+        margin-top: 7px;
+        display: block;
+        width: 100%;
+        color: black;
+    }
+
+.main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+}
+
+
+
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+        width: 100%;
+    }
+}
+
+/* for the inframe*/
+.leadership {
+    float: left;
+    padding: 20px;
+    margin: auto;
+}
+
+    .leadership img {
+        width: 300px;
+        height: auto;
+        vertical-align: middle;
+        padding: 20px;
+    }
+
+.admin {
+    float: left;
+    padding: 20px;
+    margin: auto;
+}
+
+    .admin img {
+        width: 300px;
+        height: auto;
+        vertical-align: middle;
+        padding: 20px;
+    }
+
+.sales {
+    float: left;
+    padding: 20px;
+    margin: auto;
+}
+
+    .sales img {
+        padding: 20px;
+        width: 300px;
+        height: auto;
+        vertical-align: middle;
+    }
+
+.trainers {
+    float: left;
+    padding: 20px;
+    margin: auto;
+}
+
+    .trainers img {
+        padding: 20px;
+        width: 300px;
+        height: auto;
+        vertical-align: middle;
+    }
+
+/* FOR FORMS PAGE*/
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+input[type=submit] {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  
+}
+
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+.cform {
+    
+    padding: 2em;
+    text-align: center;
+   
+    margin: auto;
+}
+
+.form {
+    margin: auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 50%;
 }
